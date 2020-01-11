@@ -30,14 +30,6 @@ The shell (non-user defined) commands used in this project:
 - free -m
 - dmidecode -t system
 
-The custom (user defined) commands used in this project:
-
-###### <a name="commands">(Run these after installation)</a>
-
-- mydistro
-- myhardware
-- make_x_file
-
 ## Installation
 
 To install these custom commands copy or type the following commands in your terminal:
@@ -51,7 +43,11 @@ To move into directory "custom-linux-commands".
 `bash install.sh`
 To install the shell scripts into your machine.
 
-You can now run [these](#commands) commands.
+_Run these after installation:_
+
+- mydistro
+- myhardware
+- make_x_file
 
 ### Additional installation instructions
 
