@@ -52,7 +52,7 @@ To install the shell scripts into your machine.
 Modified files/folders include:
 
 - `~/.bashrc`
-- `~/.cc/` _created on installation_
+- `~/.cc/` (_created on installation_)
 
 ## Troubleshooting
 
