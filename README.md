@@ -57,7 +57,7 @@ _Run these after installation:_
 
 ## Configuration
 
-Modified files/folders include:
+Modified files/directories include:
 
 - `~/.bashrc`
 - `~/.cc/` (_created on installation_)
