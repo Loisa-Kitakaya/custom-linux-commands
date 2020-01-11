@@ -1,5 +1,12 @@
 # custom-linux-commands
 
+- [About](#About)
+- [Installation](#Installation)
+  - [Additional-installation-instructions](#Additional-installation-instructions)
+- [Configuration](#Configuration)
+- [Troubleshooting](#Troubleshooting)
+- [Licence](#Licence)
+
 ## About
 
 This project uses shell scripts that enable the user to run custom commands in the terminal.
