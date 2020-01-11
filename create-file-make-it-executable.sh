@@ -1,10 +1,15 @@
 #!/bin/bash
 
 function make_x_file() {
- echo "Enter file name:"
- read name
+  #to be displayed on running command
+  echo "Enter file name:"
 
- touch $name
+  #taking user input
+  read name
 
- chmod +x $name
+  #creating the file with the name as the user's value
+  touch $name
+
+  #making the file executable
+  chmod +x $name
 }
