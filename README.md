@@ -45,9 +45,9 @@ To install the shell scripts into your machine.
 
 _Run these after installation:_
 
-- mydistro
-- myhardware
-- make_x_file
+- `mydistro`
+- `myhardware`
+- `make_x_file`
 
 ### Additional installation instructions
 
