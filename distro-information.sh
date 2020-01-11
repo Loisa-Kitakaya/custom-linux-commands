@@ -1,17 +1,20 @@
 #!/bin/bash
 
 function mydistro() {
- echo "Find information about your ditribution and version." 
- echo "Options: 'less', 'more', 'details'"
+   #info to be displayed on running command
+   echo "Find information about your ditribution and version." 
+   echo "Options: 'less', 'more', 'details'"
 
- read answer
+   #take user input
+   read answer
 
-  case "$answer" in
-     "less") lsb_release -a
-     ;;
-     "more") hostnamectl
-     ;;
-     "details") cat /etc/*-release
-     ;;
-  esac
+   #decision making using the "case" method
+   case "$answer" in
+      "less") lsb_release -a #show distribution information in a short summary
+      ;;
+      "more") hostnamectl #show distribution information in a little bit more detail
+      ;;
+      "details") cat /etc/*-release #show distribution information in details
+      ;;
+   esac
 }
