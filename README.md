@@ -12,10 +12,11 @@
 This project uses shell scripts that enable the user to run custom commands in the terminal.
 
 Generally the commands do the following:
---Display System information
---Display Distribution information
---Display Hardware information
---Install the custom commands
+
+- Display System information
+- Display Distribution information
+- Display Hardware information
+- Install the custom commands
 
 The shell (non-user defined) commands used in this project:
 
