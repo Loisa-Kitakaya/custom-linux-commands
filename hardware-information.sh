@@ -10,17 +10,17 @@ function myhardware() {
 
   #decision making using the "case" method
   case "$answer" in
-      "cpu") lscpu #shows cpu information
+      "cpu") sudo lscpu #shows cpu information
       ;;
-      "all") hwinfo --short #shows (in summary) information about most of the hardware components of the machine
+      "all") sudo hwinfo --short #shows (in summary) information about most of the hardware components of the machine
       ;;
-      "drives-1") df -H #shows information about the drives in the machine
+      "drives-1") sudo df -H #shows information about the drives in the machine
       ;;
-      "drives-2") pydf #shows information about the drives in the machine (in another format)
+      "drives-2") sudo pydf #shows information about the drives in the machine (in another format)
       ;;
-      "ram") free -m #shows information about the RAM(s) in the machine
+      "ram") sudo free -m #shows information about the RAM(s) in the machine
       ;;
-      "system") dmidecode -t system #shows general information about the machine
+      "system") sudo dmidecode -t system #shows general information about the machine
       ;;
    esac
 
