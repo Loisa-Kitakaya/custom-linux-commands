@@ -6,13 +6,16 @@ chmod +x *
 #install function
 function install_cc() {
 
+  #install required packages for commands to run
+  sudo apt-get install hwinfo pydf
+
   #create a hidden directory in the user's account folder
   #copy the contents of this folder to the user's account folder
   sudo mkdir ~/.cc/
   sudo cp * ~/.cc/
 
   #a variable storing the list of items in this folder
-  files="$(ls)"
+  files=(create-file-make-it-executable.sh distro-information.sh hardware-information.sh)
 
   #add line to file '.bashrc'
   echo "#Load custom commands" >> ~/.bashrc
@@ -25,6 +28,7 @@ function install_cc() {
       sudo mv ~/.cc/$file ~/.cc/.$file
       #add line to file '.bashrc'
       echo "source ~/.cc/.$file" >> ~/.bashrc
+
   done
 
   #instructions to print after installation
