@@ -30,7 +30,7 @@ The shell (non-user defined) commands used in this project:
 - free -m
 - dmidecode -t system
 
-The <a name="commands">custom</a> (user defined) commands used in this project:
+The <a name="commands">custom</a> (user defined) commands used in this project (will run after installation):
 
 - mydistro
 - myhardware
@@ -49,7 +49,7 @@ To move into directory "custom-linux-commands".
 `bash install.sh`
 To install the shell scripts into your machine.
 
-You can now run [this](#commands)
+You can now run [these](#commands) commands.
 
 ### Additional installation instructions
 
