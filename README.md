@@ -30,9 +30,9 @@ The shell (non-user defined) commands used in this project:
 - free -m
 - dmidecode -t system
 
-###### <a name="commands">(Run these after installation)</a>
-
 The custom (user defined) commands used in this project:
+
+###### <a name="commands">(Run these after installation)</a>
 
 - mydistro
 - myhardware
