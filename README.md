@@ -11,20 +11,22 @@ Generally the commands do the following:
 --Install the custom commands
 
 The shell (non-user defined) commands used in this project:
---lsb_release -a
---hostnamectl
---cat /etc/\*-release
---lscpu
---hwinfo --short
---df -H
---pydf
---free -m
---dmidecode -t system
+
+- lsb_release -a
+- hostnamectl
+- cat /etc/\*-release
+- lscpu
+- hwinfo --short
+- df -H
+- pydf
+- free -m
+- dmidecode -t system
 
 The custom (user defined) commands used in this project:
---mydistro
---myhardware
---make_x_file
+
+- mydistro
+- myhardware
+- make_x_file
 
 ## Installation
 
@@ -42,11 +44,15 @@ To install the shell scripts into your machine.
 ### Additional installation instructions
 
 **Requirement:**
---_Debian based OS e.g. Debian, Ubuntu, LinuxMint, e.t.c._
+
+- _Debian based OS e.g. Debian, Ubuntu, LinuxMint, e.t.c._
 
 ## Configuration
 
-Modified files/folders include: -`~/.bashrc` -`~/.cc/` _created on installation_
+Modified files/folders include:
+
+- `~/.bashrc`
+- `~/.cc/` _created on installation_
 
 ## Troubleshooting
 
