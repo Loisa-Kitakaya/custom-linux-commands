@@ -7,7 +7,9 @@ chmod +x *
 function install_cc() {
 
   #install required packages for commands to run
-  sudo apt-get install hwinfo pydf
+  sudo apt-get install hwinfo pydf &> /dev/null
+
+  echo "The following packages have been installes: 'hwinfo', 'pydf' \n"
 
   #create a hidden directory in the user's account directory
   #copy the contents of this directory to the user's account directory
